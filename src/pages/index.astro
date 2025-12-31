@@ -1,0 +1,109 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Bitterroot Sound - Custom AI Music for Life's Special Moments">
+  <!-- Navigation -->
+  <nav class="bg-white/80 backdrop-blur-sm shadow-sm sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-20">
+        <div class="flex items-center">
+          <span class="text-2xl font-display font-bold bg-gradient-to-r from-warm-blue to-mountain-green bg-clip-text text-transparent">
+            🎵 Bitterroot Sound
+          </span>
+        </div>
+        <div class="hidden md:flex space-x-8">
+          <a href="#services" class="text-gray-700 hover:text-warm-blue transition-colors font-medium">Services</a>
+          <a href="#how-it-works" class="text-gray-700 hover:text-warm-blue transition-colors font-medium">How It Works</a>
+          <a href="#about" class="text-gray-700 hover:text-warm-blue transition-colors font-medium">About</a>
+          <a href="#contact" class="text-gray-700 hover:text-warm-blue transition-colors font-medium">Contact</a>
+        </div>
+        <div class="md:hidden">
+          <button class="text-gray-700 hover:text-warm-blue">
+            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="relative overflow-hidden">
+    <!-- Background gradient -->
+    <div class="absolute inset-0 bg-gradient-to-br from-warm-blue/20 via-cream to-soft-peach/30"></div>
+
+    <!-- Decorative elements -->
+    <div class="absolute top-0 right-0 w-96 h-96 bg-warm-blue/10 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-0 left-0 w-96 h-96 bg-soft-peach/10 rounded-full blur-3xl"></div>
+
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32">
+      <div class="text-center">
+        <!-- Main headline -->
+        <h1 class="text-5xl sm:text-6xl lg:text-7xl font-display font-bold mb-6">
+          <span class="block text-gray-900">Every Moment</span>
+          <span class="block bg-gradient-to-r from-warm-blue via-mountain-green to-soft-peach bg-clip-text text-transparent">
+            Deserves a Song
+          </span>
+        </h1>
+
+        <!-- Subheadline -->
+        <p class="mt-6 text-xl sm:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          Custom AI-powered songs crafted with care for weddings, memorials, celebrations, and every special moment in between.
+        </p>
+
+        <!-- Montana touch -->
+        <p class="mt-4 text-sm text-gray-500 italic">
+          Handcrafted with heart from the Bitterroot Valley, Montana
+        </p>
+
+        <!-- CTA Buttons -->
+        <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <a
+            href="#services"
+            class="px-8 py-4 bg-gradient-to-r from-warm-blue to-mountain-green text-white font-semibold rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-200"
+          >
+            Explore Services
+          </a>
+          <a
+            href="#how-it-works"
+            class="px-8 py-4 bg-white text-gray-800 font-semibold rounded-full shadow-md hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200 border-2 border-warm-blue/20"
+          >
+            How It Works
+          </a>
+        </div>
+
+        <!-- Trust indicators -->
+        <div class="mt-16 flex flex-wrap justify-center gap-8 text-center">
+          <div class="px-6">
+            <div class="text-3xl font-bold text-warm-blue">100+</div>
+            <div class="text-sm text-gray-600 mt-1">Songs Created</div>
+          </div>
+          <div class="px-6 border-l border-gray-300">
+            <div class="text-3xl font-bold text-warm-blue">48hr</div>
+            <div class="text-sm text-gray-600 mt-1">Delivery Time</div>
+          </div>
+          <div class="px-6 border-l border-gray-300">
+            <div class="text-3xl font-bold text-warm-blue">★★★★★</div>
+            <div class="text-sm text-gray-600 mt-1">Customer Rated</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Placeholder for future sections -->
+  <section id="services" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <h2 class="text-4xl font-display font-bold text-gray-900">
+          Our Services
+        </h2>
+        <p class="mt-4 text-xl text-gray-600">
+          Coming soon...
+        </p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
